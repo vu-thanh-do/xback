@@ -5,12 +5,6 @@ const homeController = require('../controllers/homeController');
 // Home Route
 router.get('/', homeController.getHomePage);
 
-// Sign In Route
-router.get('/sign-in', homeController.getSignInPage);
-
-// Sign Up Route
-router.get('/sign-up', homeController.getSignUpPage);
-
 // Private Route
 router.get('/tham-gia-private', homeController.getPrivatePage);
 

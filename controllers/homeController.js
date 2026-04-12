@@ -9,24 +9,6 @@ const homeController = {
         });
     },
 
-    // Get Sign In Page
-    getSignInPage: (req, res) => {
-        res.render('pages/sign-in', {
-            title: 'Đăng nhập - xBack Capital',
-            activePage: 'signin',
-            bodyClass: 'page-template page-template-page-blank page-template-page-blank-php page wp-theme-flatsome'
-        });
-    },
-
-    // Get Sign Up Page
-    getSignUpPage: (req, res) => {
-        res.render('pages/sign-up', {
-            title: 'Đăng ký - xBack Capital',
-            activePage: 'signup',
-            bodyClass: 'page-template page-template-page-blank page-template-page-blank-php page wp-theme-flatsome'
-        });
-    },
-
     // Get Private Page
     getPrivatePage: (req, res) => {
         res.render('pages/private', {

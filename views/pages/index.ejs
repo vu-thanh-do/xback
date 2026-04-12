@@ -5,17 +5,20 @@
 
 
 
-                <section class="section section-main" id="section_10541953">
-                    <div class="section-bg fill">
+                <section class="section section-main" id="section_10541953" style="min-height: 100vh; position: relative; display: flex; align-items: center;">
+                    <div class="section-bg fill" style="position: absolute; inset: 0; z-index: 0;">
                         <img loading="lazy" decoding="async" width="1440" height="820"
-                            src="https://res.cloudinary.com/dsh4kbn2d/image/upload/v1776011825/Gemini_Generated_Image_5n9wd5n9wd5n9wd5_xcqr7t.jpg" class="bg attachment-original size-original" alt="">
-
-
+                            src="https://res.cloudinary.com/dsh4kbn2d/image/upload/v1776011825/Gemini_Generated_Image_5n9wd5n9wd5n9wd5_xcqr7t.jpg" 
+                            class="bg attachment-original size-original" alt="" 
+                            style="width: 100%; height: 100%; object-fit: cover; object-position: center; filter: brightness(0.35) saturate(0.9);">
+                        <!-- Overlay tối giúp ảnh mờ và nổi bật content -->
+                        <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,11,11,0.2) 0%, rgba(10,11,11,0.5) 70%, #0a0b0b 100%); pointer-events: none;"></div>
+                        <div style="position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 30%, rgba(34,197,94,0.06) 0%, transparent 60%); pointer-events: none;"></div>
                     </div>
 
 
 
-                    <div class="section-content relative">
+                    <div class="section-content relative" style="z-index: 1; width: 100%;">
 
                         <div class="row align-center" id="row-1447289197">
 
@@ -610,15 +613,13 @@
                                                     </div>
                                                 </div>
 
-                                                <!-- Popup thông báo đăng nhập -->
+                                                <!-- Popup thông báo liên hệ -->
                                                 <div class="login-popup-overlay" style="display:none;">
                                                     <div class="login-popup">
                                                         <h3>xBack Capital thông báo!</h3>
-                                                        <p>Bạn chưa đăng nhập, hãy tiến hành đăng nhập<br>trước khi kiểm
-                                                            tra hoàn phí</p>
+                                                        <p>Hãy liên hệ với chúng tôi qua Facebook<br>để được hỗ trợ kiểm tra hoàn phí</p>
                                                         <div class="login-popup-buttons">
-                                                            <a href="/sign-up/" class="btn-register">Đăng ký</a>
-                                                            <a href="/sign-in/" class="btn-login">Bắt đầu ngay</a>
+                                                            <a href="https://www.facebook.com/xbackcapital" target="_blank" rel="noopener noreferrer" class="btn-login">Liên hệ ngay</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1038,7 +1039,7 @@
                                         </style>
                                     </div>
 
-                                    <a href="#giaodich" class="button primary lowercase btn_batdau shiny-cta"
+                                    <a href="https://www.facebook.com/xbackcapital" target="_blank" rel="noopener noreferrer" class="button primary lowercase btn_batdau shiny-cta"
                                         style="border-radius:99px;">
                                         <span>Bắt đầu ngay</span>
                                     </a>
@@ -1736,15 +1737,13 @@
                                         </div>
                                     </div>
 
-                                    <!-- Popup thông báo đăng nhập -->
+                                    <!-- Popup thông báo liên hệ -->
                                     <div class="login-popup-overlay-mb" style="display:none;">
                                         <div class="login-popup">
                                             <h3>xBack Capital thông báo!</h3>
-                                            <p>Bạn chưa đăng nhập, hãy tiến hành đăng nhập<br>trước khi kiểm tra hoàn
-                                                phí</p>
+                                            <p>Hãy liên hệ với chúng tôi qua Facebook<br>để được hỗ trợ kiểm tra hoàn phí</p>
                                             <div class="login-popup-buttons">
-                                                <a href="/sign-up/" class="btn-register">Đăng ký</a>
-                                                <a href="/sign-in/" class="btn-login">Bắt đầu ngay</a>
+                                                <a href="https://www.facebook.com/xbackcapital" target="_blank" rel="noopener noreferrer" class="btn-login">Liên hệ ngay</a>
                                             </div>
                                         </div>
                                     </div>
@@ -2742,9 +2741,9 @@
                             <div class="col small-12 large-12">
                                 <div class="col-inner text-center">
                                     <h2 class="section-title" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: #ffffff;">
-                                        Khách hàng <span style="color: #22c55e;">nói gì</span> về chúng tôi
+                                        Cộng đồng Trader <span style="color: #22c55e;">đánh giá</span> về xBack
                                     </h2>
-                                    <p style="color: #888; margin-bottom: 3rem; font-size: 1.1rem;">Hàng ngàn trader đã tin tưởng xBack Capital</p>
+                                    <p style="color: #888; margin-bottom: 3rem; font-size: 1.1rem;">Hơn 10,000+ nhà giao dịch đã tối ưu chi phí cùng chúng tôi</p>
                                     
                                     <!-- Feedback Marquee Slider -->
                                     <div class="feedback-marquee">
@@ -2753,12 +2752,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Mình tiết kiệm được hơn $200 mỗi tháng nhờ hoàn phí từ xBack Capital. Dịch vụ tự động, không cần làm gì cả!"</p>
+                                                    <p class="feedback-text">"Từ khi biết đến xBack, mỗi tháng tôi nhận về thêm $340 tiền hoàn phí. Quá trình hoàn toàn tự động, chỉ việc giao dịch như bình thường và chờ tiền về tài khoản."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">TN</div>
                                                         <div class="author-info">
                                                             <h4>Trung Nguyễn</h4>
-                                                            <p>Trader Binance</p>
+                                                            <p>Futures Trader | Binance</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2766,12 +2765,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Support rất nhiệt tình, hoàn phí đúng hẹn. Đã giới thiệu cho nhiều bạn bè cùng tham gia!"</p>
+                                                    <p class="feedback-text">"Đội ngũ xBack Capital làm việc chuyên nghiệp đến bất ngờ. Phản hồi trong vòng 5 phút, hoàn phí đúng ngày không trễ một phút. Đã giới thiệu cho cả nhóm trading của mình."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">HL</div>
                                                         <div class="author-info">
                                                             <h4>Hương Lê</h4>
-                                                            <p>Trader Forex</p>
+                                                            <p>Fund Manager | Forex</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2779,12 +2778,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Volume giao dịch lớn nên hoàn phí cũng nhiều. 6 tháng được hoàn lại gần $1500, quá tuyệt!"</p>
+                                                    <p class="feedback-text">"Với volume giao dịch $2M/tháng, tôi được hoàn lại gần $1,800 mỗi quý. Đây là khoản tiết kiệm đáng kể giúp cải thiện đáng kể lợi nhuận cả năm của tôi."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">MP</div>
                                                         <div class="author-info">
                                                             <h4>Minh Phạm</h4>
-                                                            <p>Pro Trader</p>
+                                                            <p>Pro Trader | Bybit</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2792,12 +2791,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Hoàn phí đúng hẹn, dịch vụ chuyên nghiệp. Tôi sẽ tiếp tục sử dụng và giới thiệu cho bạn bè!"</p>
+                                                    <p class="feedback-text">"Sau 8 tháng sử dụng dịch vụ, tổng hoàn phí của tôi đã vượt ngưỡng $4,200. Minh bạch, uy tín và hoàn toàn passive income. Một dịch vụ mọi trader đều nên biết đến."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">AT</div>
                                                         <div class="author-info">
                                                             <h4>Anh Tuấn</h4>
-                                                            <p>Trader Crypto</p>
+                                                            <p>Crypto Trader | OKX</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2805,12 +2804,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Bot tự động rất tiện lợi, không cần làm gì vẫn nhận được hoàn phí. Đội ngũ support nhiệt tình!"</p>
+                                                    <p class="feedback-text">"Hệ thống bot tracking của xBack giúp tôi theo dõi real-time phí giao dịch và số tiền sẽ được hoàn. Không cần làm gì thêm, mọi thứ tự động 100%."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">LH</div>
                                                         <div class="author-info">
                                                             <h4>Lan Hương</h4>
-                                                            <p>Trader OKX</p>
+                                                            <p>Quant Trader | Gate.io</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2818,12 +2817,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Tìm được xBack Capital là may mắn của tôi. Mỗi tháng tiết kiệm được khoản phí giao dịch đáng kể!"</p>
+                                                    <p class="feedback-text">"Biết đến xBack Capital là một trong những quyết định đúng đắn nhất của tôi trong năm 2024. Tiết kiệm được hơn $5,000 phí giao dịch, ROI cải thiện rõ rệt."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">DK</div>
                                                         <div class="author-info">
                                                             <h4>Đức Khánh</h4>
-                                                            <p>Day Trader</p>
+                                                            <p>Day Trader | MEXC</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2832,12 +2831,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Mình tiết kiệm được hơn $200 mỗi tháng nhờ hoàn phí từ xBack Capital. Dịch vụ tự động, không cần làm gì cả!"</p>
+                                                    <p class="feedback-text">"Từ khi biết đến xBack, mỗi tháng tôi nhận về thêm $340 tiền hoàn phí. Quá trình hoàn toàn tự động, chỉ việc giao dịch như bình thường và chờ tiền về tài khoản."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">TN</div>
                                                         <div class="author-info">
                                                             <h4>Trung Nguyễn</h4>
-                                                            <p>Trader Binance</p>
+                                                            <p>Futures Trader | Binance</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2845,12 +2844,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Support rất nhiệt tình, hoàn phí đúng hẹn. Đã giới thiệu cho nhiều bạn bè cùng tham gia!"</p>
+                                                    <p class="feedback-text">"Đội ngũ xBack Capital làm việc chuyên nghiệp đến bất ngờ. Phản hồi trong vòng 5 phút, hoàn phí đúng ngày không trễ một phút. Đã giới thiệu cho cả nhóm trading của mình."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">HL</div>
                                                         <div class="author-info">
                                                             <h4>Hương Lê</h4>
-                                                            <p>Trader Forex</p>
+                                                            <p>Fund Manager | Forex</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2858,12 +2857,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Volume giao dịch lớn nên hoàn phí cũng nhiều. 6 tháng được hoàn lại gần $1500, quá tuyệt!"</p>
+                                                    <p class="feedback-text">"Với volume giao dịch $2M/tháng, tôi được hoàn lại gần $1,800 mỗi quý. Đây là khoản tiết kiệm đáng kể giúp cải thiện đáng kể lợi nhuận cả năm của tôi."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">MP</div>
                                                         <div class="author-info">
                                                             <h4>Minh Phạm</h4>
-                                                            <p>Pro Trader</p>
+                                                            <p>Pro Trader | Bybit</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2871,12 +2870,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Hoàn phí đúng hẹn, dịch vụ chuyên nghiệp. Tôi sẽ tiếp tục sử dụng và giới thiệu cho bạn bè!"</p>
+                                                    <p class="feedback-text">"Sau 8 tháng sử dụng dịch vụ, tổng hoàn phí của tôi đã vượt ngưỡng $4,200. Minh bạch, uy tín và hoàn toàn passive income. Một dịch vụ mọi trader đều nên biết đến."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">AT</div>
                                                         <div class="author-info">
                                                             <h4>Anh Tuấn</h4>
-                                                            <p>Trader Crypto</p>
+                                                            <p>Crypto Trader | OKX</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2884,12 +2883,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Bot tự động rất tiện lợi, không cần làm gì vẫn nhận được hoàn phí. Đội ngũ support nhiệt tình!"</p>
+                                                    <p class="feedback-text">"Hệ thống bot tracking của xBack giúp tôi theo dõi real-time phí giao dịch và số tiền sẽ được hoàn. Không cần làm gì thêm, mọi thứ tự động 100%."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">LH</div>
                                                         <div class="author-info">
                                                             <h4>Lan Hương</h4>
-                                                            <p>Trader OKX</p>
+                                                            <p>Quant Trader | Gate.io</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2897,12 +2896,12 @@
                                             <div class="feedback-slide">
                                                 <div class="feedback-card">
                                                     <div class="feedback-stars">★★★★★</div>
-                                                    <p class="feedback-text">"Tìm được xBack Capital là may mắn của tôi. Mỗi tháng tiết kiệm được khoản phí giao dịch đáng kể!"</p>
+                                                    <p class="feedback-text">"Biết đến xBack Capital là một trong những quyết định đúng đắn nhất của tôi trong năm 2024. Tiết kiệm được hơn $5,000 phí giao dịch, ROI cải thiện rõ rệt."</p>
                                                     <div class="feedback-author">
                                                         <div class="author-avatar">DK</div>
                                                         <div class="author-info">
                                                             <h4>Đức Khánh</h4>
-                                                            <p>Day Trader</p>
+                                                            <p>Day Trader | MEXC</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -3318,7 +3317,7 @@
                                                         </div>
 
                                                         <p>Minh bạch hoàn phí, khách hàng có thể tự check chính xác phí
-                                                            sẽ nhận được tại website xBack.net</p>
+                                                            sẽ nhận được tại website xBack.vn</p>
                                                     </div>
                                                 </div>
 
@@ -3508,7 +3507,7 @@
                                     </div>
 
                                     <p>Minh bạch hoàn phí, khách hàng có thể tự check chính xác phí sẽ nhận được tại
-                                        website xBack.net</p>
+                                        website xBack.vn</p>
                                 </div>
                             </div>
 

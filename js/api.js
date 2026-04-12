@@ -22,7 +22,7 @@ const API_CONFIG = {
     USE_PROXY: true,
     
     // URLs
-    PROXY_URL: 'https://xBack.net/wp-admin/admin-ajax.php',
+    PROXY_URL: 'https://xBack.vn/wp-admin/admin-ajax.php',
     DIRECT_API_URL: 'https://api.taphoa.dev/trade-info',
     
     // Nonce cho WordPress AJAX
