@@ -1,6 +1,6 @@
 /**
  * ============================================
- * ALPHABACK - API JAVASCRIPT
+ * XBACK - API JAVASCRIPT
  * ============================================
  * 
  * Xử lý các API calls:
@@ -22,7 +22,7 @@ const API_CONFIG = {
     USE_PROXY: true,
     
     // URLs
-    PROXY_URL: 'https://alphaback.net/wp-admin/admin-ajax.php',
+    PROXY_URL: 'https://xBack.net/wp-admin/admin-ajax.php',
     DIRECT_API_URL: 'https://api.taphoa.dev/trade-info',
     
     // Nonce cho WordPress AJAX
@@ -150,7 +150,7 @@ function normalizeResponse(response) {
             return {
                 success: false,
                 errorCode: 'NOT_WHITELISTED',
-                message: 'UID này chưa đăng ký dưới Alphaback'
+                message: 'UID này chưa đăng ký dưới xBack'
             };
         }
     }
@@ -229,7 +229,7 @@ function initCheckerForm() {
         }
         
         // Show loading với countdown
-        window.Alphaback.showLoading('Đang kiểm tra...', true);
+        window.xBack.showLoading('Đang kiểm tra...', true);
         
         // Delay 5 giây trước khi gửi request
         setTimeout(async () => {
@@ -245,17 +245,17 @@ function initCheckerForm() {
                 if (result.success) {
                     displayResult(result.data, exchange, uid);
                 } else {
-                    window.Alphaback.hideLoading();
+                    window.xBack.hideLoading();
                     
                     if (result.errorCode === 'NOT_WHITELISTED') {
-                        showError('UID này chưa đăng ký dưới Alphaback');
+                        showError('UID này chưa đăng ký dưới xBack');
                     } else {
                         showError(result.message || 'Hệ thống đang quá tải, bạn vui lòng kiểm tra lại sau nhé');
                     }
                 }
                 
             } catch (error) {
-                window.Alphaback.hideLoading();
+                window.xBack.hideLoading();
                 console.error('Check rebate error:', error);
                 
                 let errorMsg = 'Lỗi khi kết nối API.';
@@ -288,7 +288,7 @@ function displayResult(data, exchange, uid) {
         volumeResult.value = '$0.00';
     }
     
-    window.Alphaback.hideLoading();
+    window.xBack.hideLoading();
     
     // Lưu log nếu có dữ liệu hợp lệ
     if (data.volume !== undefined && data.rebate !== undefined) {
@@ -315,7 +315,7 @@ function showError(message) {
     const errorMessage = document.getElementById('errorMessage');
     if (errorMessage) {
         errorMessage.textContent = message;
-        window.Alphaback.showPopup('errorPopup');
+        window.xBack.showPopup('errorPopup');
     }
 }
 
@@ -323,7 +323,7 @@ function showError(message) {
  * Show login popup
  */
 function showLoginPopup() {
-    window.Alphaback.showPopup('loginPopup');
+    window.xBack.showPopup('loginPopup');
 }
 
 // ============================================
@@ -333,13 +333,16 @@ function showLoginPopup() {
 document.addEventListener('DOMContentLoaded', () => {
     initCheckerForm();
     
-    console.log('🔌 Alphaback API module loaded');
+    console.log('🔌 xBack API module loaded');
 });
 
 // Export API functions
-window.AlphabackAPI = {
+window.xBackAPI = {
     checkRebate: API_CONFIG.USE_PROXY ? checkRebateViaProxy : checkRebateDirect,
     saveCheckLog,
     userState,
     config: API_CONFIG
 };
+
+
+

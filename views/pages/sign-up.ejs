@@ -1,0 +1,90 @@
+<section class="section section-auth" style="padding-top: 120px; min-height: 100vh; background: #0a0b0b;">
+    <div class="section-bg fill"></div>
+    <div class="section-content relative">
+        <div class="row align-center">
+            <div class="col medium-8 small-12 large-6">
+                <div class="col-inner text-center">
+                    <div class="form-container" style="border: 1px solid #696969; border-radius: 12px; background-color: #0E0E0D99; padding: 40px;">
+                        <img src="https://res.cloudinary.com/dsh4kbn2d/image/upload/v1776003249/Gemini_Generated_Image_3ttnhs3ttnhs3ttn_xloxdn.jpg" alt="Logo" style="width: 209px; margin-bottom: 30px;">
+                        
+                        <h1 class="title1" style="font-size: 25px; font-weight: 600; line-height: 1.6; margin-bottom: 6px; color: #fff;">
+                            Đăng ký tài khoản
+                        </h1>
+                        <p class="title2" style="font-size: 17px; line-height: 1.6; color: #888; margin-bottom: 27px;">
+                            Bắt đầu nhận hoàn phí ngay hôm nay!
+                        </p>
+
+                        <form class="custom-auth-form" action="/sign-up" method="POST" style="max-width: 342px; margin: auto; display: flex; flex-direction: column; gap: 20px;">
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Họ và tên
+                                </label>
+                                <input type="text" name="fullname" placeholder="Nhập họ và tên" required
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Email
+                                </label>
+                                <input type="email" name="email" placeholder="Nhập email" required
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Username
+                                </label>
+                                <input type="text" name="username" placeholder="Nhập username" required
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Mật khẩu
+                                </label>
+                                <input type="password" name="password" placeholder="Nhập mật khẩu" required
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Xác nhận mật khẩu
+                                </label>
+                                <input type="password" name="confirm_password" placeholder="Nhập lại mật khẩu" required
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="form-auth-row" style="text-align: left;">
+                                <label style="font-weight: 500; font-size: 14px; line-height: 1.2; margin-bottom: 5px; display: block; color: #fff;">
+                                    Telegram (không bắt buộc)
+                                </label>
+                                <input type="text" name="telegram" placeholder="@username"
+                                    style="width: 100%; background: #2E2E2C; border: 1px solid #696969; color: #fff; padding: 10px; border-radius: 7px; outline: none; font-size: 14px; min-height: 46px;">
+                            </div>
+
+                            <div class="auth-row" style="display: flex; align-items: center; font-size: 12px;">
+                                <label class="remember-me" style="display: flex; align-items: center; gap: 6px; margin: 0; color: #fff;">
+                                    <input type="checkbox" name="agree" required style="margin: 0;">
+                                    <span>Tôi đồng ý với <a href="/terms" style="color: #22c55e;">Điều khoản sử dụng</a></span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="auth-btn" 
+                                style="width: 100%; background: #22c55e; color: #000; padding: 15px; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; transition: background 0.3s ease; font-size: 15px;">
+                                Đăng ký
+                            </button>
+
+                            <div class="auth-footer" style="text-align: center; font-size: 12px; color: #fff;">
+                                <p>Đã có tài khoản? <a href="/sign-in" style="color: #22c55e; text-decoration: none;">Đăng nhập</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

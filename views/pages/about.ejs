@@ -1,0 +1,393 @@
+<!-- Hero Section -->
+<section class="section about-hero" id="section_about_hero">
+    <div class="section-bg fill">
+        <img src="https://res.cloudinary.com/dsh4kbn2d/image/upload/v1776011825/Gemini_Generated_Image_5n9wd5n9wd5n9wd5_xcqr7t.jpg" 
+             class="bg attachment-original size-original" alt="xBack Capital Office" 
+             style="object-fit: cover; opacity: 0.4;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,11,11,0.3) 0%, rgba(10,11,11,0.8) 70%, #0a0b0b 100%);"></div>
+    </div>
+    
+    <style>
+        .about-hero {
+            min-height: 85vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding-top: 90px;
+        }
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-size: 14px;
+            color: #22c55e;
+            margin-bottom: 30px;
+            animation: fadeInDown 0.8s ease;
+        }
+        .hero-badge .pulse {
+            width: 8px;
+            height: 8px;
+            background: #22c55e;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hero-title-about {
+            font-size: clamp(3rem, 6vw, 5rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, #fff 0%, #22c55e 50%, #fff 100%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 0.8s ease 0.2s both, shine 3s linear infinite;
+        }
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hero-subtitle-about {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.7);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+    </style>
+    
+    
+</section>
+
+<!-- Stats Counter Section -->
+<section class="section stats-section" style="padding: 60px 0; background: linear-gradient(180deg, #0a0b0b 0%, #0d0e0d 100%); position: relative;">
+    <div class="container">
+        <div class="row align-center">
+            <div class="col medium-3 small-6 large-3">
+                <div class="col-inner">
+                    <div class="stat-item" style="text-align: center; padding: 30px 20px;">
+                        <div class="stat-number" data-target="2021" style="font-size: 3rem; font-weight: 800; color: #22c55e; line-height: 1; margin-bottom: 8px;">0</div>
+                        <div style="color: #888; font-size: 1rem;">Năm thành lập</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-3 small-6 large-3">
+                <div class="col-inner">
+                    <div class="stat-item" style="text-align: center; padding: 30px 20px;">
+                        <div class="stat-number" data-target="10000" style="font-size: 3rem; font-weight: 800; color: #22c55e; line-height: 1; margin-bottom: 8px;">0</div>
+                        <div style="color: #888; font-size: 1rem;">Khách hàng tin tưởng</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-3 small-6 large-3">
+                <div class="col-inner">
+                    <div class="stat-item" style="text-align: center; padding: 30px 20px;">
+                        <div class="stat-number" data-target="2" style="font-size: 3rem; font-weight: 800; color: #22c55e; line-height: 1; margin-bottom: 8px;">0</div>
+                        <div style="color: #888; font-size: 1rem;">Triệu $ đã hoàn trả</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-3 small-6 large-3">
+                <div class="col-inner">
+                    <div class="stat-item" style="text-align: center; padding: 30px 20px;">
+                        <div class="stat-number" data-target="98" style="font-size: 3rem; font-weight: 800; color: #22c55e; line-height: 1; margin-bottom: 8px;">0</div>
+                        <div style="color: #888; font-size: 1rem;">% Khách hàng hài lòng</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Story Section -->
+<section class="section story-section" style="padding: 100px 0; background: #0a0b0b; position: relative;">
+    <div class="container">
+        <div class="row align-middle">
+            <div class="col medium-6 small-12 large-6">
+                <div class="col-inner">
+                    <span class="section-tag" style="display: inline-block; background: rgba(34, 197, 94, 0.1); color: #22c55e; padding: 8px 20px; border-radius: 50px; font-size: 14px; font-weight: 500; margin-bottom: 20px; border: 1px solid rgba(34, 197, 94, 0.2);">Câu chuyện của chúng tôi</span>
+                    <h2 style="font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; color: #fff; margin-bottom: 24px; line-height: 1.3;">
+                        Khởi đầu từ <span style="color: #22c55e;">sứ mệnh</span><br>giúp trader tiết kiệm
+                    </h2>
+                    <div style="width: 60px; height: 4px; background: linear-gradient(90deg, #22c55e, transparent); margin-bottom: 30px; border-radius: 2px;"></div>
+                    <p style="color: #aaa; font-size: 1.1rem; line-height: 1.9; margin-bottom: 20px;">
+                        xBack Capital được thành lập vào năm 2021 bởi một nhóm trader với niềm tin rằng mọi ngườI đều xứng đáng nhận lạI phí giao dịch của mình.
+                    </p>
+                    <p style="color: #aaa; font-size: 1.1rem; line-height: 1.9; margin-bottom: 20px;">
+                        Chúng tôi nhận ra hàng triệu trader đang lãng phí từ $50 đến $10,000 mỗI tháng cho phí giao dịch mà không hề hay biết. Đó là lý do xBack Capital ra đờI.
+                    </p>
+                    <p style="color: #aaa; font-size: 1.1rem; line-height: 1.9;">
+                        Từ một nhóm nhỏ 5 ngườI, chúng tôi đã phát triển thành công ty hàng đầu với hơn 10.000 khách hàng và hợp tác cùng các sàn giao dịch lớn nhất thế giới.
+                    </p>
+                </div>
+            </div>
+            <div class="col medium-6 small-12 large-6">
+                <div class="col-inner">
+                    <div style="position: relative;">
+                        <div style="position: absolute; top: -20px; right: -20px; width: 100%; height: 100%; border: 2px solid rgba(34, 197, 94, 0.3); border-radius: 24px; z-index: 1;"></div>
+                        <div style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.2); border-radius: 24px; padding: 40px; position: relative; z-index: 2; overflow: hidden;">
+                            <div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);"></div>
+                            
+                            <div style="position: relative; z-index: 2;">
+                                <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                                    <div style="width: 70px; height: 70px; background: linear-gradient(135deg, #22c55e, #16a34a); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 28px;">🚀</div>
+                                    <div>
+                                        <div style="font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1;">2021</div>
+                                        <div style="color: #22c55e; font-size: 1rem;">Khởi đầu hành trình</div>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                                    <div style="width: 70px; height: 70px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 28px;">📈</div>
+                                    <div>
+                                        <div style="font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1;">2022</div>
+                                        <div style="color: #888; font-size: 1rem;">Vượt mốc 1,000 khách hàng</div>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                                    <div style="width: 70px; height: 70px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 28px;">🌍</div>
+                                    <div>
+                                        <div style="font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1;">2023</div>
+                                        <div style="color: #888; font-size: 1rem;">Mở rộng quan hệ đối tác</div>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; align-items: center; gap: 20px;">
+                                    <div style="width: 70px; height: 70px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 28px;">🏆</div>
+                                    <div>
+                                        <div style="font-size: 2.5rem; font-weight: 800; color: #fff; line-height: 1;">2024</div>
+                                        <div style="color: #22c55e; font-size: 1rem;">Top 1 hoàn phí VN</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Values Section -->
+<section class="section values-section" style="padding: 100px 0; background: linear-gradient(180deg, #0a0b0b 0%, #0d0e0d 50%, #0a0b0b 100%); position: relative; overflow: hidden;">
+    <div class="section-bg fill" style="background: radial-gradient(ellipse at center, rgba(34, 197, 94, 0.05) 0%, transparent 70%);"></div>
+    
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row">
+            <div class="col small-12 large-12">
+                <div class="col-inner text-center" style="margin-bottom: 60px;">
+                    <span class="section-tag" style="display: inline-block; background: rgba(34, 197, 94, 0.1); color: #22c55e; padding: 8px 20px; border-radius: 50px; font-size: 14px; font-weight: 500; margin-bottom: 20px; border: 1px solid rgba(34, 197, 94, 0.2);">Giá trị cốt lõi</span>
+                    <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: #fff; margin-bottom: 16px;">Điều gì tạo nên <span style="color: #22c55e;">xBack Capital</span>?</h2>
+                    <p style="color: #888; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Những giá trị định hướng mọi hoạt động của chúng tôi</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col medium-4 small-12 large-4">
+                <div class="col-inner">
+                    <div class="value-card" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.1); border-radius: 24px; padding: 50px 35px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); height: 100%; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-12px)'; this.style.borderColor='rgba(34, 197, 94, 0.4)'; this.style.boxShadow='0 30px 80px rgba(34, 197, 94, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(34, 197, 94, 0.1)'; this.style.boxShadow='none';">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, transparent, #22c55e, transparent); opacity: 0; transition: opacity 0.4s;" class="card-line"></div>
+                        <div style="width: 90px; height: 90px; background: linear-gradient(135deg, rgba(34, 197, 94, 0.2) 0%, rgba(34, 197, 94, 0.05) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 28px; font-size: 40px; border: 2px solid rgba(34, 197, 94, 0.3); transition: all 0.4s;" class="value-icon">💎</div>
+                        <h3 style="font-size: 1.6rem; font-weight: 600; color: #fff; margin-bottom: 16px;">Minh bạch</h3>
+                        <p style="color: #888; line-height: 1.8; font-size: 1.05rem;">Cam kết minh bạch 100% trong mọI giao dịch. Khách hàng có thể kiểm tra số liệu real-time mọI lúc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-4 small-12 large-4">
+                <div class="col-inner">
+                    <div class="value-card" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.1); border-radius: 24px; padding: 50px 35px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); height: 100%; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-12px)'; this.style.borderColor='rgba(34, 197, 94, 0.4)'; this.style.boxShadow='0 30px 80px rgba(34, 197, 94, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(34, 197, 94, 0.1)'; this.style.boxShadow='none';">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, transparent, #22c55e, transparent); opacity: 0; transition: opacity 0.4s;" class="card-line"></div>
+                        <div style="width: 90px; height: 90px; background: linear-gradient(135deg, rgba(34, 197, 94, 0.2) 0%, rgba(34, 197, 94, 0.05) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 28px; font-size: 40px; border: 2px solid rgba(34, 197, 94, 0.3);" class="value-icon">⚡</div>
+                        <h3 style="font-size: 1.6rem; font-weight: 600; color: #fff; margin-bottom: 16px;">Tự động hóa</h3>
+                        <p style="color: #888; line-height: 1.8; font-size: 1.05rem;">Hệ thống tự động 100%, hoàn phí đúng hẹn ngày 1 và 15 hàng tháng không cần làm gì thêm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-4 small-12 large-4">
+                <div class="col-inner">
+                    <div class="value-card" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.1); border-radius: 24px; padding: 50px 35px; text-align: center; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); height: 100%; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-12px)'; this.style.borderColor='rgba(34, 197, 94, 0.4)'; this.style.boxShadow='0 30px 80px rgba(34, 197, 94, 0.15)';" onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(34, 197, 94, 0.1)'; this.style.boxShadow='none';">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, transparent, #22c55e, transparent); opacity: 0; transition: opacity 0.4s;" class="card-line"></div>
+                        <div style="width: 90px; height: 90px; background: linear-gradient(135deg, rgba(34, 197, 94, 0.2) 0%, rgba(34, 197, 94, 0.05) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 28px; font-size: 40px; border: 2px solid rgba(34, 197, 94, 0.3);" class="value-icon">🤝</div>
+                        <h3 style="font-size: 1.6rem; font-weight: 600; color: #fff; margin-bottom: 16px;">Đồng hành</h3>
+                        <p style="color: #888; line-height: 1.8; font-size: 1.05rem;">Đội ngũ support 24/7 luôn sẵn sàng hỗ trợ. Chúng tôi đồng hành cùng bạn trong suốt hành trình trading.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.querySelectorAll('.value-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.querySelector('.card-line').style.opacity = '1';
+                card.querySelector('.value-icon').style.transform = 'scale(1.1)';
+                card.querySelector('.value-icon').style.borderColor = '#22c55e';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.querySelector('.card-line').style.opacity = '0';
+                card.querySelector('.value-icon').style.transform = 'scale(1)';
+                card.querySelector('.value-icon').style.borderColor = 'rgba(34, 197, 94, 0.3)';
+            });
+        });
+    </script>
+</section>
+
+<!-- Why Choose Us -->
+<section class="section why-section" style="padding: 100px 0; background: #0a0b0b; position: relative;">
+    <div class="container">
+        <div class="row align-center">
+            <div class="col medium-6 small-12 large-6">
+                <div class="col-inner">
+                    <span class="section-tag" style="display: inline-block; background: rgba(34, 197, 94, 0.1); color: #22c55e; padding: 8px 20px; border-radius: 50px; font-size: 14px; font-weight: 500; margin-bottom: 20px; border: 1px solid rgba(34, 197, 94, 0.2);">Tại sao chọn xBack?</span>
+                    <h2 style="font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; color: #fff; margin-bottom: 24px; line-height: 1.3;">
+                        Điều gì <span style="color: #22c55e;">khác biệt</span><br>ở xBack Capital?
+                    </h2>
+                    <div style="width: 60px; height: 4px; background: linear-gradient(90deg, #22c55e, transparent); margin-bottom: 30px; border-radius: 2px;"></div>
+                    
+                    <div class="why-item" style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 28px; padding: 20px; background: rgba(255,255,255,0.02); border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); transition: all 0.3s;" onmouseover="this.style.background='rgba(34,197,94,0.05)'; this.style.borderColor='rgba(34,197,94,0.2)'; this.style.transform='translateX(10px)';" onmouseout="this.style.background='rgba(255,255,255,0.02)'; this.style.borderColor='rgba(255,255,255,0.05)'; this.style.transform='translateX(0)';">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #22c55e, #16a34a); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 700; color: #000;">01</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 1.2rem; font-weight: 600; margin-bottom: 6px;">Hoàn phí cao nhất</h4>
+                            <p style="color: #888; line-height: 1.6; margin: 0;">Lên đến 65% phí giao dịch, cao nhất thị trường hiện nay.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="why-item" style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 28px; padding: 20px; background: rgba(255,255,255,0.02); border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); transition: all 0.3s;" onmouseover="this.style.background='rgba(34,197,94,0.05)'; this.style.borderColor='rgba(34,197,94,0.2)'; this.style.transform='translateX(10px)';" onmouseout="this.style.background='rgba(255,255,255,0.02)'; this.style.borderColor='rgba(255,255,255,0.05)'; this.style.transform='translateX(0)';">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #22c55e, #16a34a); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 700; color: #000;">02</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 1.2rem; font-weight: 600; margin-bottom: 6px;">Hỗ trợ đa sàn</h4>
+                            <p style="color: #888; line-height: 1.6; margin: 0;">Hỗ trợ 10+ sàn giao dịch lớn: Binance, OKX, Bybit, Bitget...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="why-item" style="display: flex; align-items: flex-start; gap: 20px; padding: 20px; background: rgba(255,255,255,0.02); border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); transition: all 0.3s;" onmouseover="this.style.background='rgba(34,197,94,0.05)'; this.style.borderColor='rgba(34,197,94,0.2)'; this.style.transform='translateX(10px)';" onmouseout="this.style.background='rgba(255,255,255,0.02)'; this.style.borderColor='rgba(255,255,255,0.05)'; this.style.transform='translateX(0)';">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #22c55e, #16a34a); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 700; color: #000;">03</div>
+                        <div>
+                            <h4 style="color: #fff; font-size: 1.2rem; font-weight: 600; margin-bottom: 6px;">An toàn & Uy tín</h4>
+                            <p style="color: #888; line-height: 1.6; margin: 0;">Hơn 3 năm hoạt động, 10.000+ khách hàng tin tưởng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col medium-6 small-12 large-6">
+                <div class="col-inner">
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                        <div class="stats-box" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.15); border-radius: 24px; padding: 40px 30px; text-align: center; transition: all 0.4s;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.borderColor='rgba(34,197,94,0.4)'; this.style.boxShadow='0 20px 60px rgba(34,197,94,0.15)';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.borderColor='rgba(34,197,94,0.15)'; this.style.boxShadow='none';">
+                            <div style="font-size: 3rem; font-weight: 800; color: #22c55e; margin-bottom: 8px; line-height: 1;">65%</div>
+                            <div style="color: #888; font-size: 0.95rem;">Hoàn phí tối đa</div>
+                        </div>
+                        <div class="stats-box" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.15); border-radius: 24px; padding: 40px 30px; text-align: center; transition: all 0.4s;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.borderColor='rgba(34,197,94,0.4)'; this.style.boxShadow='0 20px 60px rgba(34,197,94,0.15)';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.borderColor='rgba(34,197,94,0.15)'; this.style.boxShadow='none';">
+                            <div style="font-size: 3rem; font-weight: 800; color: #22c55e; margin-bottom: 8px; line-height: 1;">10+</div>
+                            <div style="color: #888; font-size: 0.95rem;">Sàn hỗ trợ</div>
+                        </div>
+                        <div class="stats-box" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.15); border-radius: 24px; padding: 40px 30px; text-align: center; transition: all 0.4s;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.borderColor='rgba(34,197,94,0.4)'; this.style.boxShadow='0 20px 60px rgba(34,197,94,0.15)';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.borderColor='rgba(34,197,94,0.15)'; this.style.boxShadow='none';">
+                            <div style="font-size: 3rem; font-weight: 800; color: #22c55e; margin-bottom: 8px; line-height: 1;">24/7</div>
+                            <div style="color: #888; font-size: 0.95rem;">Hỗ trợ</div>
+                        </div>
+                        <div class="stats-box" style="background: linear-gradient(145deg, #1e1e1c 0%, #151514 100%); border: 1px solid rgba(34, 197, 94, 0.15); border-radius: 24px; padding: 40px 30px; text-align: center; transition: all 0.4s;" onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.borderColor='rgba(34,197,94,0.4)'; this.style.boxShadow='0 20px 60px rgba(34,197,94,0.15)';" onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.borderColor='rgba(34,197,94,0.15)'; this.style.boxShadow='none';">
+                            <div style="font-size: 3rem; font-weight: 800; color: #22c55e; margin-bottom: 8px; line-height: 1;">$2M+</div>
+                            <div style="color: #888; font-size: 0.95rem;">Đã hoàn trả</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTA Section -->
+<section class="section cta-section" style="padding: 100px 0; background: linear-gradient(135deg, #0a0b0b 0%, #111 50%, #0a0b0b 100%); position: relative; overflow: hidden;">
+    <div class="section-bg fill" style="background: radial-gradient(ellipse at center, rgba(34, 197, 94, 0.1) 0%, transparent 70%);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+        <div class="row align-center">
+            <div class="col medium-10 small-12 large-8">
+                <div class="col-inner text-center">
+                    <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: #fff; margin-bottom: 20px;">Sẵn sàng đồng hành cùng chúng tôi?</h2>
+                    <p style="color: #888; font-size: 1.2rem; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.7;">Tham gia cùng 10.000+ trader đang tiết kiệm hàng nghìn đô mỗI tháng với xBack Capital</p>
+                    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                        <a href="/#giaodich" class="btn-primary" style="display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); color: #000; padding: 18px 36px; border-radius: 12px; font-weight: 600; font-size: 1.1rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 10px 40px rgba(34, 197, 94, 0.3);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 20px 60px rgba(34, 197, 94, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 40px rgba(34, 197, 94, 0.3)';">
+                            <span>Bắt đầu ngay</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="/dang-ky-doi-tac" class="btn-secondary" style="display: inline-flex; align-items: center; gap: 10px; background: transparent; color: #fff; padding: 18px 36px; border-radius: 12px; font-weight: 600; font-size: 1.1rem; text-decoration: none; transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.2);" onmouseover="this.style.background='rgba(255,255,255,0.1)'; this.style.borderColor='rgba(255,255,255,0.4)';" onmouseout="this.style.background='transparent'; this.style.borderColor='rgba(255,255,255,0.2)';">
+                            <span>Trở thành đối tác</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Counter Animation Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Counter Animation
+    const counters = document.querySelectorAll('.stat-number');
+    
+    const animateCounter = (counter) => {
+        const target = parseInt(counter.getAttribute('data-target'));
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+        
+        const updateCounter = () => {
+            current += step;
+            if (current < target) {
+                counter.textContent = Math.floor(current).toLocaleString();
+                requestAnimationFrame(updateCounter);
+            } else {
+                counter.textContent = target.toLocaleString();
+                if (target === 2) counter.textContent += 'M+';
+                else if (target === 98) counter.textContent += '%';
+                else if (target === 10000) counter.textContent += '+';
+            }
+        };
+        
+        updateCounter();
+    };
+    
+    // Intersection Observer for counters
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                counterObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+    
+    counters.forEach(counter => counterObserver.observe(counter));
+});
+</script>

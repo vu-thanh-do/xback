@@ -1,6 +1,6 @@
 /**
  * ============================================
- * ALPHABACK - MAIN JAVASCRIPT
+ * XBACK - MAIN JAVASCRIPT
  * ============================================
  * 
  * Các chức năng chính:
@@ -28,10 +28,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 45,
-            code: 'Alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/4f405388204502430eca2cd65ccc4bdc5c2928b9-300x210.png',
-            registerUrl: 'https://www.binance.com/join?ref=ALPHABACK',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ki-san-binance/'
+            code: 'xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/4f405388204502430eca2cd65ccc4bdc5c2928b9-300x210.png',
+            registerUrl: 'https://www.binance.com/join?ref=XBACK',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ki-san-binance/'
         },
         {
             id: 'okx',
@@ -40,10 +40,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 62,
-            code: 'Alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/c5b9dbf082abc407c9bfbba2e3b56666fe5c6946-300x210.png',
-            registerUrl: 'https://www.okx.com/join/ALPHABACK',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-okx/'
+            code: 'xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/c5b9dbf082abc407c9bfbba2e3b56666fe5c6946-300x210.png',
+            registerUrl: 'https://www.okx.com/join/XBACK',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-okx/'
         },
         {
             id: 'bybit',
@@ -52,10 +52,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 70,
-            code: 'Alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/2e21bdb42aaed4a2c08219cd75f7d6a2468f6a14-300x300.jpg',
-            registerUrl: 'https://www.bybitglobal.com/en/sign-up?affiliate_id=114455&group_id=1477065&group_type=1&ref_code=ALPHABACK',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-bybit/'
+            code: 'xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/2e21bdb42aaed4a2c08219cd75f7d6a2468f6a14-300x300.jpg',
+            registerUrl: 'https://www.bybitglobal.com/en/sign-up?affiliate_id=114455&group_id=1477065&group_type=1&ref_code=XBACK',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-bybit/'
         },
         {
             id: 'bingx',
@@ -64,10 +64,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 68,
-            code: 'Alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/eefc42f59e79060b4dc37061b14ed94cc18f09a0-300x300.jpg',
-            registerUrl: 'https://bingx.com/en/accounts/invite/AlphaBack',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-bingx/'
+            code: 'xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/eefc42f59e79060b4dc37061b14ed94cc18f09a0-300x300.jpg',
+            registerUrl: 'https://bingx.com/en/accounts/invite/xBack',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-bingx/'
         },
         {
             id: 'bitget',
@@ -76,10 +76,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 68,
-            code: 'Alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/291886842bb836937e766fd8006921201e11fbfe-300x210.png',
-            registerUrl: 'https://www.bitget.com/expressly?channelCode=l6jq&vipCode=ALPHABACK&languageType=0&groupId=627972',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-bitget/'
+            code: 'xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/291886842bb836937e766fd8006921201e11fbfe-300x210.png',
+            registerUrl: 'https://www.bitget.com/expressly?channelCode=l6jq&vipCode=XBACK&languageType=0&groupId=627972',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-bitget/'
         },
         {
             id: 'mexc',
@@ -88,10 +88,10 @@ const CONFIG = {
             category: 'crypto',
             badge: 'Crypto CEX',
             rebate: 60,
-            code: 'mexc-alphaback',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/c7f65e8ef60227471a570dad93b86ddb4e7d7309-300x300.jpg',
-            registerUrl: 'https://www.mexc.com/register?shareCode=mexc-alphaback',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-mexc/'
+            code: 'mexc-xBack',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/c7f65e8ef60227471a570dad93b86ddb4e7d7309-300x300.jpg',
+            registerUrl: 'https://www.mexc.com/register?shareCode=mexc-xBack',
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-mexc/'
         },
         {
             id: 'gate',
@@ -101,9 +101,9 @@ const CONFIG = {
             badge: 'Crypto CEX',
             rebate: 78,
             code: 'Alphabac',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/bdc0c79501ff0c1ffda5a5557a5da5cf418341bb-300x300.jpg',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/bdc0c79501ff0c1ffda5a5557a5da5cf418341bb-300x300.jpg',
             registerUrl: 'https://www.gate.com/share/vlvdbahwuq',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-gate-io/'
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-gate-io/'
         },
         {
             id: 'kucoin',
@@ -113,9 +113,9 @@ const CONFIG = {
             badge: 'Crypto CEX',
             rebate: 85,
             code: 'KUCOINBACK',
-            image: 'https://alphaback.net/wp-content/uploads/2025/10/Kucoin-alphaback-300x210.png',
+            image: 'https://xBack.net/wp-content/uploads/2025/10/Kucoin-xBack-300x210.png',
             registerUrl: 'https://www.kucoin.com/ucenter/signup?rcode=KUCOINBACK',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-kucoin/'
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-kucoin/'
         },
         {
             id: 'exness',
@@ -125,23 +125,23 @@ const CONFIG = {
             badge: 'Forex',
             rebate: 100,
             code: 'feho2r26se',
-            image: 'https://alphaback.net/wp-content/uploads/2025/11/exness-logo.jpeg',
+            image: 'https://xBack.net/wp-content/uploads/2025/11/exness-logo.jpeg',
             registerUrl: 'https://www.exmarkets.markets/?utm_source=partners&ex_ol=1',
-            guideUrl: 'https://alphaback.net/huong-dan-dang-ky-san-exness/'
+            guideUrl: 'https://xBack.net/huong-dan-dang-ky-san-exness/'
         }
     ],
     
     // Links cho hero selector
     heroLinks: {
-        binance: 'https://alphaback.net/huong-dan-dang-ki-san-binance/',
-        okx: 'https://alphaback.net/huong-dan-dang-ky-san-okx/',
-        bingx: 'https://alphaback.net/huong-dan-dang-ky-san-bingx/',
-        bybit: 'https://alphaback.net/huong-dan-dang-ky-san-bybit/',
-        bitget: 'https://alphaback.net/huong-dan-dang-ky-san-bitget/',
-        mexc: 'https://alphaback.net/huong-dan-dang-ky-san-mexc/',
-        gateio: 'https://alphaback.net/huong-dan-dang-ky-san-gate-io/',
-        kucoin: 'https://alphaback.net/huong-dan-dang-ky-san-kucoin/',
-        exness: 'https://alphaback.net/huong-dan-dang-ky-san-exness/',
+        binance: 'https://xBack.net/huong-dan-dang-ki-san-binance/',
+        okx: 'https://xBack.net/huong-dan-dang-ky-san-okx/',
+        bingx: 'https://xBack.net/huong-dan-dang-ky-san-bingx/',
+        bybit: 'https://xBack.net/huong-dan-dang-ky-san-bybit/',
+        bitget: 'https://xBack.net/huong-dan-dang-ky-san-bitget/',
+        mexc: 'https://xBack.net/huong-dan-dang-ky-san-mexc/',
+        gateio: 'https://xBack.net/huong-dan-dang-ky-san-gate-io/',
+        kucoin: 'https://xBack.net/huong-dan-dang-ky-san-kucoin/',
+        exness: 'https://xBack.net/huong-dan-dang-ky-san-exness/',
         lbank: '#'
     }
 };
@@ -665,11 +665,11 @@ document.addEventListener('DOMContentLoaded', () => {
     initPopups();
     initHeaderScroll();
     
-    console.log('🚀 Alphaback initialized successfully!');
+    console.log('🚀 xBack initialized successfully!');
 });
 
 // Export for use in other modules
-window.Alphaback = {
+window.xBack = {
     CONFIG,
     elements,
     showPopup,
@@ -680,3 +680,6 @@ window.Alphaback = {
     copyToClipboard,
     showToast
 };
+
+
+
