@@ -100,7 +100,7 @@ font-size: 12px;
 border-radius: 99px;
 width: fit-content;
 height: fit-content;
-border: 1px solid #fcd535;
+border: 1px solid #22c55e;
 }
 
 .portfolio-item .content {
@@ -114,7 +114,7 @@ font-size: 22.22px;
 }
 
 .portfolio-item .copy-text {
-background: #fcd535;
+background: #22c55e;
 color: #0A0B0B;
 padding: 5px 8px;
 font-size: 12px;
@@ -142,7 +142,7 @@ transition: 0.3s all ease-in-out;
 }
 
 .portfolio-item .btn.yellow {
-background: #FCD535;
+background: #22c55e;
 color: #181817;
 width: 45%;
 }
@@ -156,7 +156,7 @@ object-fit: contain;
 
 .portfolio-item .btn.yellow:hover {
 color: #000;
-background: #fcd535bf;
+background: #22c55ebf;
 }
 
 .portfolio-item .btn.outline {
@@ -190,7 +190,7 @@ cursor: pointer;
 }
 
 .page-num:hover {
-background: #FCD535;
+background: #22c55e;
 color: #181817;
 }
 
@@ -391,7 +391,7 @@ background: #2a2a28;
     }
     
     .category-scroll-container::-webkit-scrollbar-thumb {
-        background: #fcd535;
+        background: #22c55e;
         border-radius: 10px;
     }
     
