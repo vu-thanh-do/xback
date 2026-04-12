@@ -1,0 +1,330 @@
+/* ============================================
+   ALPHABACK - RESPONSIVE STYLESHEET
+   ============================================
+   
+   Breakpoints:
+   - Desktop: 1024px+
+   - Tablet: 768px - 1023px
+   - Mobile: < 768px
+   
+   ============================================ */
+
+/* ---------- Tablet (768px - 1023px) ---------- */
+@media (max-width: 1023px) {
+    :root {
+        --section-padding: 60px;
+    }
+    
+    /* Header */
+    .nav-desktop {
+        display: none;
+    }
+    
+    .auth-buttons {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    /* Hero */
+    .hero {
+        padding: 100px 0 40px;
+    }
+    
+    /* Stats Grid */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    
+    .stat-card {
+        padding: 20px;
+    }
+    
+    .stat-icon img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .stat-content h3 {
+        font-size: 20px;
+    }
+    
+    /* Checker Form */
+    .form-row {
+        flex-wrap: wrap;
+    }
+    
+    .form-group {
+        flex: 1 1 calc(50% - 8px);
+        min-width: 200px;
+    }
+    
+    .form-group-btn {
+        flex: 1 1 100%;
+    }
+    
+    .btn-check {
+        width: 100%;
+    }
+    
+    /* Exchanges Grid */
+    .exchanges-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .footer-brand {
+        grid-column: span 2;
+    }
+}
+
+/* ---------- Mobile (< 768px) ---------- */
+@media (max-width: 767px) {
+    :root {
+        --section-padding: 40px;
+        --container-padding: 16px;
+    }
+    
+    /* Typography */
+    body {
+        font-size: 15px;
+    }
+    
+    /* Header */
+    .header {
+        height: 60px;
+    }
+    
+    .header-inner {
+        height: 60px;
+    }
+    
+    .logo img {
+        height: 32px;
+    }
+    
+    /* Hero */
+    .hero {
+        padding: 80px 0 30px;
+        min-height: auto;
+    }
+    
+    .hero-content {
+        margin-bottom: 40px;
+    }
+    
+    .hero-title {
+        font-size: 28px;
+    }
+    
+    .hero-description {
+        font-size: 15px;
+    }
+    
+    /* Exchange Selector */
+    .exchange-selector {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .custom-select {
+        width: 100%;
+        min-width: auto;
+    }
+    
+    .exchange-selector .btn {
+        width: 100%;
+    }
+    
+    /* Stats Grid */
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 40px;
+    }
+    
+    .stat-card {
+        padding: 16px;
+    }
+    
+    /* Checker Section */
+    .checker-section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .form-group {
+        flex: 1 1 100%;
+    }
+    
+    .form-control {
+        padding: 14px 16px;
+        font-size: 16px; /* Prevent zoom on iOS */
+    }
+    
+    /* Exchanges Section */
+    .filter-bar {
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+    
+    .filter-btn {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+    
+    .exchanges-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .exchange-card {
+        max-width: 400px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .card-content {
+        padding: 16px;
+    }
+    
+    .card-content h4 {
+        font-size: 18px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding: 40px 0 24px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .footer-brand {
+        grid-column: span 1;
+    }
+    
+    .footer-brand img {
+        margin: 0 auto 16px;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        padding-top: 24px;
+    }
+    
+    /* Popup */
+    .popup {
+        padding: 30px 20px;
+        margin: 16px;
+    }
+    
+    .popup h3 {
+        font-size: 20px;
+    }
+    
+    .popup-buttons {
+        flex-direction: column;
+    }
+}
+
+/* ---------- Small Mobile (< 480px) ---------- */
+@media (max-width: 479px) {
+    /* Hero */
+    .hero-title {
+        font-size: 24px;
+    }
+    
+    /* Exchange Cards */
+    .card-buttons {
+        flex-direction: column;
+    }
+    
+    .card-buttons .btn {
+        width: 100%;
+    }
+    
+    /* Stats */
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .stat-content h3 {
+        font-size: 22px;
+    }
+}
+
+/* ---------- Large Desktop (> 1440px) ---------- */
+@media (min-width: 1440px) {
+    :root {
+        --container-max-width: 1400px;
+    }
+    
+    .hero-title {
+        font-size: 64px;
+    }
+    
+    .exchanges-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* ---------- Height-based adjustments ---------- */
+@media (max-height: 700px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+        padding: 100px 0 40px;
+    }
+    
+    .stats-grid {
+        margin-top: 30px;
+    }
+}
+
+/* ---------- Print styles ---------- */
+@media print {
+    .header,
+    .mobile-menu,
+    .popup-overlay,
+    .loading-overlay,
+    .exchange-selector,
+    .filter-bar,
+    .card-buttons,
+    .footer {
+        display: none !important;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+    
+    .exchanges-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .exchange-card {
+        break-inside: avoid;
+        border: 1px solid #ccc;
+    }
+}
