@@ -422,3 +422,50 @@ select.form-control option {
 
 }
 
+/* ---------- Bot Section Overrides ---------- */
+.bot-hero-section .btn_batdau {
+    min-width: 220px;
+    font-size: 16px;
+}
+
+.bot-package-card .btn_batdau {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Swiper video fixes */
+.bot-video-wrapper video {
+    display: block;
+    width: 100%;
+}
+
+/* Counter animation helper */
+.counting {
+    transition: all 0.3s ease;
+}
+
+/* Glassmorphism effects */
+.bot-perf-card,
+.bot-step-card,
+.bot-video-card,
+.bot-package-card {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Ensure z-index for hero */
+.bot-hero-section {
+    z-index: 1;
+}
+
+/* Smooth scroll offset for fixed header */
+html {
+    scroll-padding-top: 90px;
+}
+
+@media (max-width: 549px) {
+    html {
+        scroll-padding-top: 70px;
+    }
+}
+
